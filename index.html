@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTAKU2001</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header>
+    <div class="logo">
+        <img src="images/logo.png" alt="OTAKU2001">
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="novedades.html">Novedades</a>
+        <a href="apoyo.html">Apoyo</a>
+    </nav>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Buscar manga..."
+        >
+
+        <button id="searchButton">🔍</button>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="bienvenida">
+        <h1>Bienvenido a OTAKU2001</h1>
+        <p>Tu espacio para disfrutar de tus mangas favoritos.</p>
+    </section>
+
+    <section class="destacado">
+        <h2>Manga destacado</h2>
+
+        <div class="manga-card">
+            <div class="portada">
+                <img src="images/asura.jpg" alt="Portada de El Veredicto de Asura">
+            </div>
+
+            <div class="manga-info">
+                <h3>El Veredicto de Asura</h3>
+
+                <p>
+                    Descubre nuestro proyecto de traducción
+                    y disfruta de la historia en español.
+                </p>
+
+                <p class="estado">En traducción</p>
+
+                <a href="mangas/veredicto-de-asura.html" class="ver-manga">Ver manga</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-chapters">
+
+        <h2>Últimos capítulos</h2>
+
+        <div id="latestChapters"></div>
+
+    </section>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,584 @@
+body {
+    margin: 0;
+    background-color: #111111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    display: block;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #cccccc;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+main h1 {
+    font-size: 40px;
+}
+
+main p {
+    color: #bbbbbb;
+    font-size: 18px;
+}
+
+.bienvenida {
+    text-align: center;
+    padding: 70px 20px 40px;
+}
+
+.destacado {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.destacado h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.manga-card {
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.portada {
+    width: 180px;
+    height: 250px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #aaaaaa;
+}
+
+.manga-info {
+    flex: 1;
+}
+
+.manga-info h3 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.manga-info p {
+    color: #bbbbbb;
+    line-height: 1.6;
+}
+
+.estado {
+    font-weight: bold;
+}
+
+.manga-info button {
+    margin-top: 15px;
+}
+
+.portada img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.manga-page {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+}
+
+.manga-cover {
+    width: 240px;
+    height: 340px;
+    flex-shrink: 0;
+}
+
+.manga-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.manga-details {
+    padding-top: 10px;
+}
+
+.manga-details h1 {
+    font-size: 38px;
+    margin-top: 0;
+}
+
+.manga-details p {
+    color: #bbbbbb;
+    line-height: 1.6;
+}
+
+.statuses {
+    margin-top: 30px;
+}
+
+.status {
+    margin-bottom: 15px;
+}
+
+.status strong {
+    display: inline-block;
+    min-width: 140px;
+}
+
+.status span {
+    color: #bbbbbb;
+}
+
+.chapters {
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    padding: 0 30px;
+}
+
+.chapters h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.chapter {
+    background-color: #1c1c1c;
+    padding: 18px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chapter-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.chapter-info strong {
+    font-size: 17px;
+}
+
+.chapter-info span {
+    color: #888888;
+    font-size: 13px;
+}
+
+.ver-manga {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.ver-manga:hover {
+    opacity: 0.8;
+}
+
+.reader {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.reader h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.reader h2 {
+    color: #bbbbbb;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.reader-pages {
+    margin-top: 40px;
+}
+
+.reader-pages img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.reader-message {
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 8px;
+    color: #aaaaaa;
+}
+
+.reader-navigation {
+    margin-top: 30px;
+}
+
+.reader-navigation a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+.leer-capitulo {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+}
+
+.leer-capitulo:hover {
+    opacity: 0.8;
+}
+
+.top-navigation {
+    margin-bottom: 25px;
+}
+
+.sinopsis {
+    color: #cccccc;
+    line-height: 1.7;
+    font-size: 16px;
+    max-width: 650px;
+}
+
+.manga-data {
+    margin-top: 25px;
+}
+
+.manga-data p {
+    margin: 12px 0;
+    color: #cccccc;
+}
+
+.manga-data strong {
+    color: white;
+}
+
+.status-text {
+    color: #cccccc;
+}
+
+.library {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 30px 60px;
+}
+
+.library h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.library-description {
+    color: #aaaaaa;
+    margin-bottom: 35px;
+}
+
+.manga-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 190px));
+    gap: 25px;
+}
+
+.library-card {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.library-card:hover {
+    transform: translateY(-5px);
+}
+
+.library-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.library-card-info {
+    padding: 12px;
+}
+
+.library-card-info h2 {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.library-card-info p {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.library-card-info a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 9px 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.library-card-info a:hover {
+    opacity: 0.8;
+}
+
+.latest-chapters {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 30px 60px;
+}
+
+.latest-chapters h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.latest-chapter {
+    background-color: #1c1c1c;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.latest-chapter img {
+    width: 55px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.latest-chapter-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.latest-chapter-info strong {
+    font-size: 17px;
+}
+
+.latest-chapter-info span {
+    color: #888888;
+    font-size: 14px;
+}
+
+.latest-chapter a {
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.support {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 0 30px 60px;
+    text-align: center;
+}
+
+.support h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.support p {
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.support-box {
+    background-color: #1c1c1c;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.support-box h2 {
+    margin-bottom: 15px;
+}
+
+.support-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.support-card {
+    width: 220px;
+    background-color: #1c1c1c;
+    padding: 25px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.support-card h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.support-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.support-button {
+    display: inline-block;
+    padding: 9px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.support-button:hover {
+    opacity: 0.8;
+}
+
+.news {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 30px 60px;
+    text-align: center;
+}
+
+.news h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.news-intro {
+    color: #aaaaaa;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.upcoming-projects {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 280px;
+    background-color: #1c1c1c;
+    padding: 30px 25px;
+    border-radius: 10px;
+}
+
+.project-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.project-card span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #aaaaaa;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.project-card img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

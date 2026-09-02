@@ -1,0 +1,169 @@
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+        min-height: 65px;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    header button {
+        padding: 8px 12px;
+    }
+
+    .bienvenida {
+        padding: 40px 20px 25px;
+    }
+
+    .bienvenida h1 {
+        font-size: 30px;
+    }
+
+    .manga-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .manga-cover {
+        width: 200px;
+        height: 285px;
+    }
+
+    .manga-details h1 {
+        font-size: 30px;
+    }
+
+    .manga-page {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 30px 15px;
+        padding: 20px;
+    }
+
+    .manga-cover {
+        width: 200px;
+        height: 285px;
+    }
+
+    .manga-data {
+        text-align: left;
+    }
+
+    .chapters {
+        padding: 0 15px;
+    }
+
+    .chapter {
+        padding: 15px;
+    }
+
+    .reader {
+        padding: 20px 0 40px;
+    }
+
+    .reader h1 {
+        font-size: 26px;
+    }
+
+    .reader h2 {
+        font-size: 18px;
+    }
+
+    .reader-pages {
+        width: 100%;
+    }
+
+    .reader-pages img {
+        width: 100%;
+        max-width: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .library {
+        margin: 30px auto;
+        padding: 0 15px 40px;
+    }
+
+    .library h1 {
+        font-size: 30px;
+    }
+
+    .manga-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .library-card img {
+        height: 210px;
+    }
+
+    .library-card-info {
+        padding: 12px;
+    }
+
+    .library-card-info h2 {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .latest-chapters {
+        padding: 0 15px 40px;
+        margin-top: 30px;
+    }
+
+    .latest-chapter {
+        padding: 15px;
+    }
+
+    .latest-chapter strong {
+        font-size: 15px;
+    }
+
+    .latest-chapter {
+    gap: 10px;
+    padding: 10px;
+    }
+
+    .latest-chapter img {
+    width: 45px;
+    height: 65px;
+    }
+
+    .latest-chapter-info strong {
+    font-size: 14px;
+    }
+
+    .latest-chapter-info span {
+    font-size: 12px;
+    }
+
+    .latest-chapter a {
+    padding: 7px 10px;
+    font-size: 11px;
+    }
+
+}
