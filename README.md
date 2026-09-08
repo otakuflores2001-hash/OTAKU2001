@@ -1,2 +1,0 @@
-# OTAKU2001
-Página web de OTAKU2001

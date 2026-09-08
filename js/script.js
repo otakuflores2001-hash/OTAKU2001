@@ -33,6 +33,12 @@ if (latestChapters) {
     const chapters = [
         {
             manga: "El Veredicto de Asura",
+            chapter: "Capítulo 4",
+            link: "mangas/capitulos/capitulo-4.html",
+            image: "images/asura.jpg"
+        },
+        {
+            manga: "El Veredicto de Asura",
             chapter: "Capítulo 3",
             link: "mangas/capitulos/capitulo-3.html",
             image: "images/asura.jpg"
@@ -42,13 +48,8 @@ if (latestChapters) {
             chapter: "Capítulo 2",
             link: "mangas/capitulos/capitulo-2.html",
             image: "images/asura.jpg"
-        },
-        {
-            manga: "El Veredicto de Asura",
-            chapter: "Capítulo 1",
-            link: "mangas/capitulos/capitulo-1.html",
-            image: "images/asura.jpg"
         }
+
     ];
 
     chapters.forEach(function (chapter) {
